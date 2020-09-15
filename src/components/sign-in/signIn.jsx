@@ -36,6 +36,7 @@ class SignIn extends Component {
             type="email"
             value={this.state.email}
             handleChange={this.handleChange}
+            label="Email"
           />
 
           <FormInput
