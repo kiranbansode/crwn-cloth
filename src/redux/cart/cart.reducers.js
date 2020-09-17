@@ -4,6 +4,7 @@ import {
   CLEAR_ITEM_FROM_CART,
   REMOVE_ITEM,
 } from "./cart.types";
+
 import { addItemToCart, removeItemFromCart } from "./cart.utils";
 
 const INITIAL_STATE = {
